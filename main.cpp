@@ -267,7 +267,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lpara
             DestroyWindow(hwnd);
         }
         else if (menu == MENU_HELP_ABOUT) {
-            MessageBoxA(hwnd, "A small program that can display the graphs specified by the method learned at school and can save it in a bitmap image file.\nWritten in WINAPI C++, without using any external libraries.", "About", MB_OK);
+            MessageBoxA(hwnd, "About\n\n", "About", MB_OK);
         }
 	}
 	else if (message == WM_CLOSE) {
