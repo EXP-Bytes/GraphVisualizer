@@ -269,7 +269,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lpara
         else if (menu == MENU_HELP_ABOUT) {
             MessageBoxA(hwnd, "About\n\n", "About", MB_OK);
         }
-	}
 	else if (message == WM_CLOSE) {
 		DestroyWindow(hwnd);
 	}
